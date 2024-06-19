@@ -1,0 +1,53 @@
+form{
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(0, 51, 220);
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#result{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: none;
+    border-radius: 25px;
+}
+
+button{
+    border-radius: 20px;
+    font-size: 2em;
+    background-color: rgb(42, 90, 248);
+    color: white;
+    cursor: pointer;
+    transition: background 0.5s;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border: none;
+}
+button:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    background: rgb(2, 2, 186)
+}
+
+#passLength{
+    margin-bottom: 20px;
+}
+input{
+    text-align: center;
+}
+
+#length{
+    border: none;
+    width: 10%;
+    border-radius: 25px;
+    
+}
