@@ -1,3 +1,9 @@
+var slideElem = document.getElementById("charSlider");
+var slideLength = document.getElementById("charLength");
+
+
+
+
 
 function generatePassword(){
 
