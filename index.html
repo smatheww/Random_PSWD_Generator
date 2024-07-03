@@ -11,9 +11,9 @@
     <form>
         
         <h1>Random Password Generator</h1>
-        <input type="textbox" id="result">
-        <button id="copy">Copy</button>
-        <button id="redo"><i class="fa-solid fa-rotate-right"></i></button><br>
+        <input type="textbox" id="result" readonly>
+        <button type="button" id="copy">Copy</button>
+        <button type="button" id="redo"><i class="fa-solid fa-rotate-right"></i></button><br>
         <label for="passLength">Password Length: </label>
         <input type="range" min="1" max="12" value="8" id="charSlider" oninput="charLength.value = this.value">
         <input type="textbox" id="charLength" value="8"><br>
