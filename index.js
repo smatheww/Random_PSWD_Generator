@@ -34,7 +34,7 @@ function generatePassword(pswdlength, includeLowercase, includeUppercase, includ
 
     return password;
 }
-
+// Program is run when Website is loaded with this function:
 window.addEventListener('DOMContentLoaded', (event) => {
   //each component is acquired from the html file
   let pswdlength = parseInt(document.getElementById("charLength").value);
